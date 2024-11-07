@@ -1,5 +1,5 @@
 <script setup>
-import hola from "@/components/hello-work.vue"
+import hola from "@/components/imput-text.vue"
 </script>
 
 <template>
