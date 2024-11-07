@@ -41,4 +41,17 @@ const value3 = ref(null);
   border-radius: 10px;
   padding: 6%;
 }
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {  /* Pantallas más pequeñas */
+  .tere{
+    background-color: #6a4eb0;
+    margin: 0px;
+  }
+}
+
+@media (min-width: 769px) { /* Pantallas más grandes */
+  .tere{
+    background-color: green;
+  }
+}
 </style>
